@@ -4,8 +4,12 @@ from collections import namedtuple
 
 # Filter criteria
 REGISTRATION_PREFIX = 'LV'
-COMPETITION_IDS = ['GL','RR']
+COMPETITION_IDS = ["41","ACP","GL","ZT","ZC","QM","WR","T2","MB","CPC","ZM","TL",
+                   "CR","VN","DI","KC","JG","CQ","TI","AC","ZB","W","IT","NA","N1",
+                   "ZG","MM","FU","EG","M1","Z3","DK","RI","DP","RR","X","ZZ","WL",
+                   "EY","PB","SH","AM","V8","10","LG","1R"]
 #
+
 
 OgnDevice = namedtuple('OgnDevice',
                        ['device_type',
@@ -37,4 +41,4 @@ assert len(devsToTrack) <= 200
 with open( 'xcsoar-flarm.txt','w' ) as f:
     f.writelines( '{}={}\n'.format(dev.device_id, dev.cn) for dev in devsToTrack )
 
-print("Succesfully wrote {} IDs into xcsoar-flarm.txt".format(len(devsToTrack)))
+print("Succesfully wrote {} IDs (out of {}) into xcsoar-flarm.txt".format(len(devsToTrack), len(COMPETITION_IDS)))
