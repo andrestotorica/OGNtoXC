@@ -21,24 +21,25 @@ OgnDevice = namedtuple('OgnDevice',
                         'identified'])
 
 
-# download all registered devices from OGN DB
-ognDbRequest = requests.get('https://ddb.glidernet.org/download/')
-assert ognDbRequest.status_code == 200
+if __name__=='__main__':
+    # download all registered devices from OGN DB
+    ognDbRequest = requests.get('https://ddb.glidernet.org/download/')
+    assert ognDbRequest.status_code == 200
 
-ognDbRecords = ognDbRequest.content.decode().splitlines()[1:]
-ognDevices = [ OgnDevice( *record.replace("'","").split(',') ) for record in ognDbRecords ]
+    ognDbRecords = ognDbRequest.content.decode().splitlines()[1:]
+    ognDevices = [ OgnDevice( *record.replace("'","").split(',') ) for record in ognDbRecords ]
 
 
-# filter devices by Competition ID and registration country prefix
-# note that XCSoar supports up to 200 device IDs
-devsToTrack = []
-for device in ognDevices:
-    if REGISTRATION_PREFIX in device.registration and device.cn in COMPETITION_IDS:
-        devsToTrack.append( device )
-assert len(devsToTrack) <= 200
+    # filter devices by Competition ID and registration country prefix
+    # note that XCSoar supports up to 200 device IDs
+    devsToTrack = []
+    for device in ognDevices:
+        if REGISTRATION_PREFIX in device.registration and device.cn in COMPETITION_IDS:
+            devsToTrack.append( device )
+    assert len(devsToTrack) <= 200
 
-# export to XCSoar format
-with open( 'xcsoar-flarm.txt','w' ) as f:
-    f.writelines( '{}={}\n'.format(dev.device_id, dev.cn) for dev in devsToTrack )
+    # export to XCSoar format
+    with open( 'xcsoar-flarm.txt','w' ) as f:
+        f.writelines( '{}={}\n'.format(dev.device_id, dev.cn) for dev in devsToTrack )
 
-print("Succesfully wrote {} IDs (out of {}) into xcsoar-flarm.txt".format(len(devsToTrack), len(COMPETITION_IDS)))
+    print("Succesfully wrote {} IDs (out of {}) into xcsoar-flarm.txt".format(len(devsToTrack), len(COMPETITION_IDS)))
