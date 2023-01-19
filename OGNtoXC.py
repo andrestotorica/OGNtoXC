@@ -1,14 +1,7 @@
-import requests
-import pandas as pd
+import argparse
 from collections import namedtuple
-
-# Filter criteria
-REGISTRATION_PREFIX = 'LV'
-COMPETITION_IDS = ["41","ACP","GL","ZT","ZC","QM","WR","T2","MB","CPC","ZM","TL",
-                   "CR","VN","DI","KC","JG","CQ","TI","AC","ZB","W","IT","NA","N1",
-                   "ZG","MM","FU","EG","M1","Z3","DK","RI","DP","RR","X","ZZ","WL",
-                   "EY","PB","SH","AM","V8","10","LG","1R"]
-#
+import pandas as pd
+import requests
 
 
 OgnDevice = namedtuple('OgnDevice',
@@ -21,7 +14,16 @@ OgnDevice = namedtuple('OgnDevice',
                         'identified'])
 
 
+def read_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('registration_prefix', help='Registration prefix (country code) to filter with')
+    parser.add_argument('competition_ids', help='Comma separated list of competition ids to filter')
+    parser = parser.parse_args()
+    return parser.registration_prefix, parser.competition_ids.split(',')
+
 if __name__=='__main__':
+    registration_prefix, competition_ids = read_args()
+    
     # download all registered devices from OGN DB
     ognDbRequest = requests.get('https://ddb.glidernet.org/download/')
     assert ognDbRequest.status_code == 200
@@ -29,12 +31,11 @@ if __name__=='__main__':
     ognDbRecords = ognDbRequest.content.decode().splitlines()[1:]
     ognDevices = [ OgnDevice( *record.replace("'","").split(',') ) for record in ognDbRecords ]
 
-
     # filter devices by Competition ID and registration country prefix
     # note that XCSoar supports up to 200 device IDs
     devsToTrack = []
     for device in ognDevices:
-        if REGISTRATION_PREFIX in device.registration and device.cn in COMPETITION_IDS:
+        if registration_prefix in device.registration and device.cn in competition_ids:
             devsToTrack.append( device )
     assert len(devsToTrack) <= 200
 
@@ -42,4 +43,4 @@ if __name__=='__main__':
     with open( 'xcsoar-flarm.txt','w' ) as f:
         f.writelines( '{}={}\n'.format(dev.device_id, dev.cn) for dev in devsToTrack )
 
-    print("Succesfully wrote {} IDs (out of {}) into xcsoar-flarm.txt".format(len(devsToTrack), len(COMPETITION_IDS)))
+    print("requirements.txt {} IDs (out of {}) into xcsoar-flarm.txt".format(len(devsToTrack), len(competition_ids)))
