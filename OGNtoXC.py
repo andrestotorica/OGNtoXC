@@ -43,4 +43,4 @@ if __name__=='__main__':
     with open( 'xcsoar-flarm.txt','w' ) as f:
         f.writelines( '{}={}\n'.format(dev.device_id, dev.cn) for dev in devsToTrack )
 
-    print("requirements.txt {} IDs (out of {}) into xcsoar-flarm.txt".format(len(devsToTrack), len(competition_ids)))
+    print("Succesfully wrote {} IDs (out of {}) into xcsoar-flarm.txt".format(len(devsToTrack), len(competition_ids)))
