@@ -30,17 +30,21 @@ if __name__=='__main__':
 
     ognDbRecords = ognDbRequest.content.decode().splitlines()[1:]
     ognDevices = [ OgnDevice( *record.replace("'","").split(',') ) for record in ognDbRecords ]
+    print(f"Downloaded {len(ognDevices)} device records from OGN DB")
 
     # filter devices by Competition ID and registration country prefix
     # note that XCSoar supports up to 200 device IDs
     devsToTrack = []
     for device in ognDevices:
-        if registration_prefix in device.registration and device.cn in competition_ids:
+        if device.registration.startswith(registration_prefix) and device.cn in competition_ids:
             devsToTrack.append( device )
     assert len(devsToTrack) <= 200
 
     # export to XCSoar format
     with open( 'xcsoar-flarm.txt','w' ) as f:
-        f.writelines( '{}={}\n'.format(dev.device_id, dev.cn) for dev in devsToTrack )
+        f.writelines( f'{dev.device_id}={dev.cn}\n' for dev in devsToTrack )
+    # export human-readable report
+    with open( 'report.txt','w' ) as f:
+        f.writelines( f'{dev.device_id}\t{dev.device_type}\t{dev.registration}\t{dev.cn}\t{dev.aircraft_model}\n' for dev in devsToTrack )
 
-    print("Succesfully wrote {} IDs (out of {}) into xcsoar-flarm.txt".format(len(devsToTrack), len(competition_ids)))
+    print(f"Succesfully wrote {len(devsToTrack)} IDs into xcsoar-flarm.txt (out of {len(competition_ids)} competition IDs provided) ")
