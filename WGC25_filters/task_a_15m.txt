@@ -1,0 +1,38 @@
+<Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="0" aat_min_time="10800" type="RT">
+	<Point type="Start">
+		<Waypoint altitude="534" comment="" id="705" name="006SPCHYNOV">
+			<Location latitude="49.4117" longitude="14.8322"/>
+		</Waypoint>
+		<ObservationZone length="15000" type="Line"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="700" comment="" id="356" name="479ROZVADOV">
+			<Location latitude="49.672" longitude="12.5567"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="663" comment="" id="129" name="496SCHONSEE">
+			<Location latitude="49.5083" longitude="12.55"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="688" comment="" id="24" name="688MALONTY">
+			<Location latitude="48.6858" longitude="14.5792"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="565" comment="" id="188" name="646ZIROVNICE">
+			<Location latitude="49.2539" longitude="15.1933"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Finish">
+		<Waypoint altitude="428" comment="" id="710" name="001SPTABOR">
+			<Location latitude="49.3942" longitude="14.7028"/>
+		</Waypoint>
+		<ObservationZone radius="5000" type="Cylinder"/>
+	</Point>
+</Task>
