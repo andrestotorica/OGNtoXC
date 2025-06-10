@@ -1,7 +1,7 @@
-<Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="1" aat_min_time="6300" type="AAT">
+<Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="1" aat_min_time="7200" type="AAT">
 	<Point type="Start">
-		<Waypoint altitude="534" comment="" id="705" name="006SPCHYNOV">
-			<Location latitude="49.4117" longitude="14.8322"/>
+		<Waypoint altitude="516" comment="" id="700" name="011SPBOROTIN">
+			<Location latitude="49.5045" longitude="14.6142"/>
 		</Waypoint>
 		<ObservationZone length="15000" type="Line"/>
 	</Point>
