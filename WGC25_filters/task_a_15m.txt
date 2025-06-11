@@ -1,27 +1,39 @@
-<Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="1" aat_min_time="6300" type="AAT">
+<Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="0" aat_min_time="10800" type="RT">
 	<Point type="Start">
 		<Waypoint altitude="534" comment="" id="705" name="006SPCHYNOV">
 			<Location latitude="49.4117" longitude="14.8322"/>
 		</Waypoint>
 		<ObservationZone length="15000" type="Line"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="510" comment="" id="343" name="676SEDLICE">
-			<Location latitude="49.3759" longitude="13.9415"/>
+	<Point type="Turn">
+		<Waypoint altitude="500" comment="" id="232" name="602VOTICE">
+			<Location latitude="49.6378" longitude="14.6511"/>
 		</Waypoint>
-		<ObservationZone radius="40000" type="Cylinder"/>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="576" comment="" id="4" name="710WETZELSBERG">
-			<Location latitude="48.9162" longitude="15.4268"/>
+	<Point type="Turn">
+		<Waypoint altitude="721" comment="" id="320" name="337MELECHOV">
+			<Location latitude="49.6386" longitude="15.3183"/>
 		</Waypoint>
-		<ObservationZone radius="30000" type="Cylinder"/>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="650" comment="" id="226" name="608VYSKYTNA">
-			<Location latitude="49.4278" longitude="15.3642"/>
+	<Point type="Turn">
+		<Waypoint altitude="656" comment="" id="201" name="633ZADNIZHOR">
+			<Location latitude="49.4514" longitude="15.8742"/>
 		</Waypoint>
-		<ObservationZone radius="25000" type="Cylinder"/>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="740" comment="" id="34" name="678CERINEK">
+			<Location latitude="49.3741" longitude="15.4369"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="577" comment="" id="558" name="096DACICE">
+			<Location latitude="49.0792" longitude="15.4336"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="428" comment="" id="710" name="001SPTABOR">
