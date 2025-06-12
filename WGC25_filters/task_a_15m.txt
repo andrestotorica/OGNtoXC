@@ -1,37 +1,25 @@
 <Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="0" aat_min_time="10800" type="RT">
 	<Point type="Start">
-		<Waypoint altitude="534" comment="" id="705" name="006SPCHYNOV">
-			<Location latitude="49.4117" longitude="14.8322"/>
+		<Waypoint altitude="533" comment="" id="702" name="009SPCHOTOVINY">
+			<Location latitude="49.4775" longitude="14.6761"/>
 		</Waypoint>
 		<ObservationZone length="15000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="500" comment="" id="232" name="602VOTICE">
-			<Location latitude="49.6378" longitude="14.6511"/>
+		<Waypoint altitude="586" comment="" id="648" name="186HORNICEREKEV">
+			<Location latitude="49.3111" longitude="15.3242"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="721" comment="" id="320" name="337MELECHOV">
-			<Location latitude="49.6386" longitude="15.3183"/>
+		<Waypoint altitude="490" comment="" id="144" name="429POLNA">
+			<Location latitude="49.4867" longitude="15.7033"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="656" comment="" id="201" name="633ZADNIZHOR">
-			<Location latitude="49.4514" longitude="15.8742"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="740" comment="" id="34" name="678CERINEK">
-			<Location latitude="49.3741" longitude="15.4369"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="577" comment="" id="558" name="096DACICE">
-			<Location latitude="49.0792" longitude="15.4336"/>
+		<Waypoint altitude="510" comment="" id="175" name="659CEPEL">
+			<Location latitude="49.6557" longitude="14.2047"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>

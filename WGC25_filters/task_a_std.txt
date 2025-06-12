@@ -1,31 +1,31 @@
 <Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="0" aat_min_time="10800" type="RT">
 	<Point type="Start">
-		<Waypoint altitude="533" comment="" id="702" name="009SPCHOTOVINY">
-			<Location latitude="49.4775" longitude="14.6761"/>
+		<Waypoint altitude="445" comment="" id="701" name="010SPDLOUHALHOTA">
+			<Location latitude="49.3545" longitude="14.7892"/>
 		</Waypoint>
 		<ObservationZone length="15000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="827" comment="" id="60" name="565TREMSIN">
-			<Location latitude="49.5667" longitude="13.7675"/>
+		<Waypoint altitude="525" comment="" id="459" name="251KAUTZEN">
+			<Location latitude="48.9314" longitude="15.2406"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="800" comment="" id="140" name="433PRAHA">
-			<Location latitude="49.6617" longitude="13.8114"/>
+		<Waypoint altitude="530" comment="" id="128" name="497SCHREMS">
+			<Location latitude="48.7942" longitude="15.0695"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="520" comment="" id="636" name="198HUMPOLEC">
-			<Location latitude="49.5264" longitude="15.3492"/>
+		<Waypoint altitude="400" comment="" id="410" name="300LETY">
+			<Location latitude="49.5195" longitude="14.0728"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="563" comment="" id="465" name="245KAMENICE">
-			<Location latitude="49.3014" longitude="15.0683"/>
+		<Waypoint altitude="579" comment="" id="177" name="657KRASNAHORA">
+			<Location latitude="49.5724" longitude="14.2933"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>

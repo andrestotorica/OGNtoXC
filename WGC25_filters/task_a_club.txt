@@ -6,32 +6,26 @@
 		<ObservationZone length="15000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="651" comment="" id="7" name="706RASY">
-			<Location latitude="49.0786" longitude="15.0661"/>
+		<Waypoint altitude="585" comment="" id="488" name="165HAUGSHLAG">
+			<Location latitude="48.9989" longitude="15.0589"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="586" comment="" id="648" name="186HORNICEREKEV">
-			<Location latitude="49.3111" longitude="15.3242"/>
+		<Waypoint altitude="350" comment="" id="87" name="538SUCHDOL">
+			<Location latitude="48.9025" longitude="14.8822"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="400" comment="" id="316" name="343MILEVSKO">
-			<Location latitude="49.4417" longitude="14.3775"/>
+		<Waypoint altitude="500" comment="" id="358" name="477ROZMITAL">
+			<Location latitude="49.6025" longitude="13.882"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="406" comment="" id="192" name="642ZELIV">
-			<Location latitude="49.5225" longitude="15.2186"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="660" comment="" id="20" name="691KAMEN">
-			<Location latitude="49.3763" longitude="14.9943"/>
+		<Waypoint altitude="420" comment="" id="315" name="344MILIN">
+			<Location latitude="49.6378" longitude="14.05"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
