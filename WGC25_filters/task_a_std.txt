@@ -1,33 +1,33 @@
-<Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="0" aat_min_time="10800" type="RT">
+<Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="1" aat_min_time="7200" type="AAT">
 	<Point type="Start">
-		<Waypoint altitude="445" comment="" id="701" name="010SPDLOUHALHOTA">
-			<Location latitude="49.3545" longitude="14.7892"/>
+		<Waypoint altitude="407" comment="" id="115" name="510SOBESLAV">
+			<Location latitude="49.2506" longitude="14.7147"/>
 		</Waypoint>
 		<ObservationZone length="15000" type="Line"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="525" comment="" id="459" name="251KAUTZEN">
-			<Location latitude="48.9314" longitude="15.2406"/>
+	<Point type="Area">
+		<Waypoint altitude="500" comment="" id="88" name="537STUDENA">
+			<Location latitude="49.2" longitude="15.3025"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="25000" type="Cylinder"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="530" comment="" id="128" name="497SCHREMS">
-			<Location latitude="48.7942" longitude="15.0695"/>
+	<Point type="Area">
+		<Waypoint altitude="450" comment="" id="652" name="059BOHDANEC">
+			<Location latitude="49.7772" longitude="15.2239"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone end_radial="303" start_radial="123" radius="20000" type="Sector"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="400" comment="" id="410" name="300LETY">
-			<Location latitude="49.5195" longitude="14.0728"/>
+	<Point type="Area">
+		<Waypoint altitude="403" comment="" id="387" name="448PROTIVIN">
+			<Location latitude="49.2008" longitude="14.2136"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="20000" type="Cylinder"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="579" comment="" id="177" name="657KRASNAHORA">
-			<Location latitude="49.5724" longitude="14.2933"/>
+	<Point type="Area">
+		<Waypoint altitude="510" comment="" id="175" name="659CEPEL">
+			<Location latitude="49.6557" longitude="14.2047"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="20000" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="428" comment="" id="710" name="001SPTABOR">

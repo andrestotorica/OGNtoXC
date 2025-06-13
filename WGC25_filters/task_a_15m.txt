@@ -1,27 +1,33 @@
-<Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="0" aat_min_time="10800" type="RT">
+<Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="1" aat_min_time="8100" type="AAT">
 	<Point type="Start">
-		<Waypoint altitude="533" comment="" id="702" name="009SPCHOTOVINY">
-			<Location latitude="49.4775" longitude="14.6761"/>
+		<Waypoint altitude="516" comment="" id="700" name="011SPBOROTIN">
+			<Location latitude="49.5045" longitude="14.6142"/>
 		</Waypoint>
 		<ObservationZone length="15000" type="Line"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="586" comment="" id="648" name="186HORNICEREKEV">
-			<Location latitude="49.3111" longitude="15.3242"/>
+	<Point type="Area">
+		<Waypoint altitude="473" comment="" id="176" name="658SOUDNY">
+			<Location latitude="49.578" longitude="14.1391"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="25000" type="Cylinder"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="490" comment="" id="144" name="429POLNA">
-			<Location latitude="49.4867" longitude="15.7033"/>
+	<Point type="Area">
+		<Waypoint altitude="525" comment="" id="459" name="251KAUTZEN">
+			<Location latitude="48.9314" longitude="15.2406"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="25000" type="Cylinder"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="510" comment="" id="175" name="659CEPEL">
-			<Location latitude="49.6557" longitude="14.2047"/>
+	<Point type="Area">
+		<Waypoint altitude="406" comment="" id="192" name="642ZELIV">
+			<Location latitude="49.5225" longitude="15.2186"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="25000" type="Cylinder"/>
+	</Point>
+	<Point type="Area">
+		<Waypoint altitude="400" comment="" id="348" name="487SEDLCANY">
+			<Location latitude="49.6536" longitude="14.4267"/>
+		</Waypoint>
+		<ObservationZone radius="10000" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="428" comment="" id="710" name="001SPTABOR">
