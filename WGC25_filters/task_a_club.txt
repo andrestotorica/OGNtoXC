@@ -1,27 +1,21 @@
 <Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="1" aat_min_time="9000" type="AAT">
 	<Point type="Start">
-		<Waypoint altitude="538" comment="" id="628" name="206CHOUSTNIK">
-			<Location latitude="49.3258" longitude="14.8403"/>
+		<Waypoint altitude="477" comment="" id="709" name="002SPZELEC">
+			<Location latitude="49.3161" longitude="14.6442"/>
 		</Waypoint>
 		<ObservationZone length="15000" type="Line"/>
 	</Point>
 	<Point type="Area">
-		<Waypoint altitude="380" comment="" id="183" name="651ZRUCNADSAZAVOU">
-			<Location latitude="49.7381" longitude="15.1042"/>
+		<Waypoint altitude="827" comment="" id="60" name="565TREMSIN">
+			<Location latitude="49.5667" longitude="13.7675"/>
 		</Waypoint>
-		<ObservationZone radius="10000" type="Cylinder"/>
+		<ObservationZone radius="35000" type="Cylinder"/>
 	</Point>
 	<Point type="Area">
-		<Waypoint altitude="490" comment="" id="144" name="429POLNA">
-			<Location latitude="49.4867" longitude="15.7033"/>
+		<Waypoint altitude="520" comment="" id="552" name="102DOBERSBERG">
+			<Location latitude="48.9222" longitude="15.2853"/>
 		</Waypoint>
-		<ObservationZone radius="20000" type="Cylinder"/>
-	</Point>
-	<Point type="Area">
-		<Waypoint altitude="400" comment="" id="410" name="300LETY">
-			<Location latitude="49.5195" longitude="14.0728"/>
-		</Waypoint>
-		<ObservationZone radius="20000" type="Cylinder"/>
+		<ObservationZone radius="35000" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="428" comment="" id="710" name="001SPTABOR">

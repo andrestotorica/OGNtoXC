@@ -6,28 +6,16 @@
 		<ObservationZone length="15000" type="Line"/>
 	</Point>
 	<Point type="Area">
-		<Waypoint altitude="473" comment="" id="176" name="658SOUDNY">
-			<Location latitude="49.578" longitude="14.1391"/>
+		<Waypoint altitude="450" comment="" id="80" name="545SVIHOV">
+			<Location latitude="49.4736" longitude="13.2908"/>
 		</Waypoint>
-		<ObservationZone radius="25000" type="Cylinder"/>
+		<ObservationZone radius="50000" type="Cylinder"/>
 	</Point>
 	<Point type="Area">
-		<Waypoint altitude="525" comment="" id="459" name="251KAUTZEN">
-			<Location latitude="48.9314" longitude="15.2406"/>
+		<Waypoint altitude="586" comment="" id="648" name="186HORNICEREKEV">
+			<Location latitude="49.3111" longitude="15.3242"/>
 		</Waypoint>
-		<ObservationZone radius="25000" type="Cylinder"/>
-	</Point>
-	<Point type="Area">
-		<Waypoint altitude="406" comment="" id="192" name="642ZELIV">
-			<Location latitude="49.5225" longitude="15.2186"/>
-		</Waypoint>
-		<ObservationZone radius="25000" type="Cylinder"/>
-	</Point>
-	<Point type="Area">
-		<Waypoint altitude="400" comment="" id="348" name="487SEDLCANY">
-			<Location latitude="49.6536" longitude="14.4267"/>
-		</Waypoint>
-		<ObservationZone radius="10000" type="Cylinder"/>
+		<ObservationZone radius="30000" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="428" comment="" id="710" name="001SPTABOR">
