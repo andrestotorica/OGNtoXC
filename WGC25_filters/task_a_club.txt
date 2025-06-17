@@ -1,21 +1,33 @@
-<Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="1" aat_min_time="9000" type="AAT">
+<Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="0" aat_min_time="10800" type="RT">
 	<Point type="Start">
-		<Waypoint altitude="477" comment="" id="709" name="002SPZELEC">
-			<Location latitude="49.3161" longitude="14.6442"/>
+		<Waypoint altitude="433" comment="" id="708" name="003SPBECICE">
+			<Location latitude="49.3831" longitude="14.5542"/>
 		</Waypoint>
 		<ObservationZone length="15000" type="Line"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="827" comment="" id="60" name="565TREMSIN">
-			<Location latitude="49.5667" longitude="13.7675"/>
+	<Point type="Turn">
+		<Waypoint altitude="500" comment="" id="671" name="040BELA">
+			<Location latitude="49.5883" longitude="12.7214"/>
 		</Waypoint>
-		<ObservationZone radius="35000" type="Cylinder"/>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
-	<Point type="Area">
-		<Waypoint altitude="520" comment="" id="552" name="102DOBERSBERG">
-			<Location latitude="48.9222" longitude="15.2853"/>
+	<Point type="Turn">
+		<Waypoint altitude="400" comment="" id="90" name="535STRIBRO">
+			<Location latitude="49.7406" longitude="13"/>
 		</Waypoint>
-		<ObservationZone radius="35000" type="Cylinder"/>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="460" comment="" id="486" name="167HAVLICKUVBROD">
+			<Location latitude="49.6" longitude="15.5514"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="586" comment="" id="648" name="186HORNICEREKEV">
+			<Location latitude="49.3111" longitude="15.3242"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="428" comment="" id="710" name="001SPTABOR">
