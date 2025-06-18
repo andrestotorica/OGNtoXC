@@ -6,26 +6,14 @@
 		<ObservationZone length="15000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="500" comment="" id="671" name="040BELA">
-			<Location latitude="49.5883" longitude="12.7214"/>
+		<Waypoint altitude="490" comment="" id="622" name="212IMUNTEREN">
+			<Location latitude="49.875" longitude="12.3264"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="400" comment="" id="90" name="535STRIBRO">
-			<Location latitude="49.7406" longitude="13"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="460" comment="" id="486" name="167HAVLICKUVBROD">
-			<Location latitude="49.6" longitude="15.5514"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="586" comment="" id="648" name="186HORNICEREKEV">
-			<Location latitude="49.3111" longitude="15.3242"/>
+		<Waypoint altitude="864" comment="" id="559" name="095CUPRINA">
+			<Location latitude="49.952" longitude="12.4856"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>

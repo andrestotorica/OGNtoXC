@@ -1,43 +1,25 @@
 <Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="0" aat_min_time="10800" type="RT">
 	<Point type="Start">
-		<Waypoint altitude="400" comment="" id="262" name="397OTA">
-			<Location latitude="49.2645" longitude="14.7986"/>
+		<Waypoint altitude="534" comment="" id="705" name="006SPCHYNOV">
+			<Location latitude="49.4117" longitude="14.8322"/>
 		</Waypoint>
 		<ObservationZone length="15000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="690" comment="" id="162" name="672NEURAZY">
-			<Location latitude="49.4144" longitude="13.5514"/>
+		<Waypoint altitude="380" comment="" id="395" name="440PRESTICE">
+			<Location latitude="49.5758" longitude="13.3222"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="670" comment="" id="83" name="542SUSICE">
-			<Location latitude="49.2339" longitude="13.487"/>
+		<Waypoint altitude="663" comment="" id="129" name="496SCHONSEE">
+			<Location latitude="49.5083" longitude="12.55"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="444" comment="" id="6" name="707COUDKUV">
-			<Location latitude="49.0304" longitude="14.8794"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="498" comment="" id="566" name="088CESKEVELENICE">
-			<Location latitude="48.7753" longitude="14.9497"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="473" comment="" id="29" name="682KUHBERG">
-			<Location latitude="48.8191" longitude="15.8032"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="663" comment="" id="12" name="701UOBRAZKU">
-			<Location latitude="49.1819" longitude="15.6337"/>
+		<Waypoint altitude="602" comment="" id="523" name="131FLOSSENBUERG">
+			<Location latitude="49.7328" longitude="12.3386"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
