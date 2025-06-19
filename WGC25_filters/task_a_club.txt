@@ -1,19 +1,37 @@
 <Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="0" aat_min_time="10800" type="RT">
 	<Point type="Start">
-		<Waypoint altitude="433" comment="" id="708" name="003SPBECICE">
-			<Location latitude="49.3831" longitude="14.5542"/>
+		<Waypoint altitude="477" comment="" id="709" name="002SPZELEC">
+			<Location latitude="49.3161" longitude="14.6442"/>
 		</Waypoint>
 		<ObservationZone length="15000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="490" comment="" id="622" name="212IMUNTEREN">
-			<Location latitude="49.875" longitude="12.3264"/>
+		<Waypoint altitude="864" comment="" id="559" name="095CUPRINA">
+			<Location latitude="49.952" longitude="12.4856"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="864" comment="" id="559" name="095CUPRINA">
-			<Location latitude="49.952" longitude="12.4856"/>
+		<Waypoint altitude="150" comment="" id="528" name="126ERPETSHOF">
+			<Location latitude="49.6556" longitude="12.2917"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="700" comment="" id="274" name="385NYRSKO">
+			<Location latitude="49.2606" longitude="13.1456"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="500" comment="" id="240" name="594VIMPERK">
+			<Location latitude="49.0522" longitude="13.7747"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="480" comment="" id="570" name="084CERVENA">
+			<Location latitude="49.247" longitude="14.8861"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>

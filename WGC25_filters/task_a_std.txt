@@ -1,37 +1,31 @@
 <Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="0" aat_min_time="10800" type="RT">
 	<Point type="Start">
-		<Waypoint altitude="516" comment="" id="700" name="011SPBOROTIN">
-			<Location latitude="49.5045" longitude="14.6142"/>
+		<Waypoint altitude="538" comment="" id="628" name="206CHOUSTNIK">
+			<Location latitude="49.3258" longitude="14.8403"/>
 		</Waypoint>
 		<ObservationZone length="15000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="457" comment="" id="3" name="711CHVALENICE">
-			<Location latitude="49.643" longitude="13.4759"/>
+		<Waypoint altitude="250" comment="" id="373" name="462RETZ">
+			<Location latitude="48.7558" longitude="15.9589"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="418" comment="" id="412" name="298LETKOV">
-			<Location latitude="49.7231" longitude="13.4522"/>
+		<Waypoint altitude="878" comment="" id="23" name="689REISENG">
+			<Location latitude="48.5908" longitude="14.5363"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="600" comment="" id="401" name="309LIPNICE">
-			<Location latitude="49.6108" longitude="15.4092"/>
+		<Waypoint altitude="550" comment="" id="463" name="247KAPLICE">
+			<Location latitude="48.7381" longitude="14.4964"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="650" comment="" id="244" name="590VETRNYJENIKOV">
-			<Location latitude="49.4736" longitude="15.4781"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="579" comment="" id="177" name="657KRASNAHORA">
-			<Location latitude="49.5724" longitude="14.2933"/>
+		<Waypoint altitude="400" comment="" id="231" name="603VRANOV">
+			<Location latitude="48.907" longitude="15.8186"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>

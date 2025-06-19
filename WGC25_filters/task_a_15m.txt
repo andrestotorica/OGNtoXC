@@ -1,25 +1,37 @@
 <Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="0" aat_min_time="10800" type="RT">
 	<Point type="Start">
-		<Waypoint altitude="534" comment="" id="705" name="006SPCHYNOV">
-			<Location latitude="49.4117" longitude="14.8322"/>
+		<Waypoint altitude="516" comment="" id="700" name="011SPBOROTIN">
+			<Location latitude="49.5045" longitude="14.6142"/>
 		</Waypoint>
 		<ObservationZone length="15000" type="Line"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="380" comment="" id="395" name="440PRESTICE">
-			<Location latitude="49.5758" longitude="13.3222"/>
+		<Waypoint altitude="827" comment="" id="60" name="565TREMSIN">
+			<Location latitude="49.5667" longitude="13.7675"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="663" comment="" id="129" name="496SCHONSEE">
-			<Location latitude="49.5083" longitude="12.55"/>
+		<Waypoint altitude="544" comment="" id="313" name="346MIROSOV">
+			<Location latitude="49.6736" longitude="13.6367"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="602" comment="" id="523" name="131FLOSSENBUERG">
-			<Location latitude="49.7328" longitude="12.3386"/>
+		<Waypoint altitude="445" comment="" id="33" name="679SLAPANOV">
+			<Location latitude="49.5408" longitude="15.6548"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="350" comment="" id="87" name="538SUCHDOL">
+			<Location latitude="48.9025" longitude="14.8822"/>
+		</Waypoint>
+		<ObservationZone radius="500" type="Cylinder"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="619" comment="" id="32" name="680HOLUBI">
+			<Location latitude="48.9929" longitude="15.4727"/>
 		</Waypoint>
 		<ObservationZone radius="500" type="Cylinder"/>
 	</Point>
