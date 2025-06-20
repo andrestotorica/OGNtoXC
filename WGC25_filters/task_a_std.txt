@@ -1,33 +1,27 @@
-<Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="0" aat_min_time="10800" type="RT">
+<Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="1" aat_min_time="10800" type="AAT">
 	<Point type="Start">
-		<Waypoint altitude="538" comment="" id="628" name="206CHOUSTNIK">
-			<Location latitude="49.3258" longitude="14.8403"/>
+		<Waypoint altitude="453" comment="" id="309" name="350MLADAVOZICE">
+			<Location latitude="49.5322" longitude="14.8092"/>
 		</Waypoint>
 		<ObservationZone length="15000" type="Line"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="250" comment="" id="373" name="462RETZ">
-			<Location latitude="48.7558" longitude="15.9589"/>
+	<Point type="Area">
+		<Waypoint altitude="550" comment="" id="600" name="234JIMRAMOV">
+			<Location latitude="49.6353" longitude="16.2233"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="30000" type="Cylinder"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="878" comment="" id="23" name="689REISENG">
-			<Location latitude="48.5908" longitude="14.5363"/>
+	<Point type="Area">
+		<Waypoint altitude="400" comment="" id="316" name="343MILEVSKO">
+			<Location latitude="49.4417" longitude="14.3775"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="30000" type="Cylinder"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="550" comment="" id="463" name="247KAPLICE">
-			<Location latitude="48.7381" longitude="14.4964"/>
+	<Point type="Area">
+		<Waypoint altitude="565" comment="" id="188" name="646ZIROVNICE">
+			<Location latitude="49.2539" longitude="15.1933"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="400" comment="" id="231" name="603VRANOV">
-			<Location latitude="48.907" longitude="15.8186"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="20000" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="428" comment="" id="710" name="001SPTABOR">

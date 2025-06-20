@@ -1,39 +1,27 @@
-<Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="0" aat_min_time="10800" type="RT">
+<Task pev_start_window="0" pev_start_wait_time="0" fai_finish="0" finish_min_height_ref="AGL" finish_min_height="0" start_max_height_ref="AGL" start_max_height="0" start_max_speed="0" start_score_exit="1" start_requires_arm="1" aat_min_time="10800" type="AAT">
 	<Point type="Start">
 		<Waypoint altitude="477" comment="" id="709" name="002SPZELEC">
 			<Location latitude="49.3161" longitude="14.6442"/>
 		</Waypoint>
 		<ObservationZone length="15000" type="Line"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="864" comment="" id="559" name="095CUPRINA">
-			<Location latitude="49.952" longitude="12.4856"/>
+	<Point type="Area">
+		<Waypoint altitude="355" comment="" id="182" name="652ZVIKOV">
+			<Location latitude="49.4178" longitude="14.19"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="30000" type="Cylinder"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="150" comment="" id="528" name="126ERPETSHOF">
-			<Location latitude="49.6556" longitude="12.2917"/>
+	<Point type="Area">
+		<Waypoint altitude="520" comment="" id="636" name="198HUMPOLEC">
+			<Location latitude="49.5264" longitude="15.3492"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="20000" type="Cylinder"/>
 	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="700" comment="" id="274" name="385NYRSKO">
-			<Location latitude="49.2606" longitude="13.1456"/>
+	<Point type="Area">
+		<Waypoint altitude="425" comment="" id="542" name="112DROSENDORF">
+			<Location latitude="48.8692" longitude="15.6206"/>
 		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="500" comment="" id="240" name="594VIMPERK">
-			<Location latitude="49.0522" longitude="13.7747"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="480" comment="" id="570" name="084CERVENA">
-			<Location latitude="49.247" longitude="14.8861"/>
-		</Waypoint>
-		<ObservationZone radius="500" type="Cylinder"/>
+		<ObservationZone radius="30000" type="Cylinder"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="428" comment="" id="710" name="001SPTABOR">
